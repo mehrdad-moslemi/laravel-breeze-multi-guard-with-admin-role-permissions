@@ -99,14 +99,14 @@ return [
     'passwords' => [
         'admin' => [
             'provider' => 'admin',
-            'table' => 'password_resets',
+            'table' => 'staff_password_resets',
             'expire' => 60,
             'throttle' => 60,
         ],
 
         'customers' => [
             'provider' => 'customers',
-            'table' => 'password_resets',
+            'table' => 'customers_password_resets',
             'expire' => 60,
             'throttle' => 60,
         ]
